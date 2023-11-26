@@ -1,0 +1,145 @@
+/* Add this CSS to set the background color */
+.App{
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #2b444f; /* Background color set to #2b444f */
+
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; /* Optional: Keep the background fixed */
+}
+
+/* Rest of your existing CSS code... */
+
+
+.auth-form-container, .login-form, .sign-form {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+@media screen and (min-width: 600px) {
+  .auth-form-container {
+    padding: 5rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0.5rem;
+    box-shadow: 0 0 10px rgb(50, 205, 195)
+  }
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+  color:black
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  display: block; /* Display the button as a block-level element (on a new line) */
+    margin-top: 10px; /* Add some space above the button */
+    background-color: rgb(93, 198, 198); /* Button background color to complement peachpuff */
+    color: #333; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.link-btn {
+  background: none;
+  color: black;
+  text-decoration: underline;
+}
+
+.App{
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: url('back_3.webp'); /* Add the path to your background image */
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; /* Optional: Keep the background fixed */
+}
+/*body {
+ background-image: url('ims3.png'); 
+ background-repeat: repeat;
+} */
+
+.top-right-text {
+  position: center;
+  /* Adjust the right spacing as needed */
+  color: rgb(50, 205, 195);
+  font-size: 40px; /* Increase font size by 40% */
+  font-family: 'Roboto', sans-serif; /* Change this to your desired professional font */
+  font-weight: 100;
+  font-style: italic; /* Add this line to make the text italic */
+}
+
+
+
+
+.about-us-container {
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative; /* To make the inner content position relative to this container */
+
+  /* Add an overlay to make the text more readable */
+  background-color: rgb(93, 198, 198); /* Adjust the opacity as needed */
+  color: white; /* Text color on the overlay */
+
+  /* Add padding and other styles as desired */
+  padding: 20px;
+}
+
+/* Additional styling for your content */
+.about-us-container h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.about-us-container p {
+  font-size: 12px;
+  line-height: 1.5;
+}
+/* Add this CSS to set the background image for the home page */
+.home-background {
+  background-image:url('back_3.webp'); /* Add the path to your background image */
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; /* Optional: Keep the background fixed */
+}
+/* Add this CSS to set the background image for the entire page */
+body {
+  background-image: url('back_3.webp');  /* Add the path to your background image */
+  background-size: cover; /* Ensure the image covers the entire viewport */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; /* Optional: Keep the background fixed */
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding */
+}
+
+/* Add this CSS to your component's stylesheet or a separate CSS file */
+
+
+
